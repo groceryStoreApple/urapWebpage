@@ -1,51 +1,16 @@
 ---
 layout: default
+title: Main page
 ---
-<h1 class = "text-center">DataConnect@Berkeley</h1
-<div class= "jumbo-img" ><img  src="{{site.baseurl}}/img/bayview_banner.jpg"></div>
+<div id="title" class="slide header" >
+  <h1>Main Page</h1>
+        <h2 class = "text-center">DataConnect@Berkeley</h2>
 
-<h3 class = "text-center" >What is Lorem Ipsum?</h5>
+  </div> 
 
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-<p>Donec eget arcu pharetra, luctus neque id, sollicitudin dolor. Fusce eget eros rhoncus, posuere nibh at, eleifend nulla. Curabitur maximus diam ex, eu dictum enim porttitor at. Proin sit amet laoreet erat. Quisque rutrum tortor sed massa iaculis cursus. Nulla ac tortor quis mi aliquam aliquet eu euismod velit. Proin quis erat ac nunc pharetra fringilla quis id quam. Vivamus efficitur euismod est, at interdum turpis. Cras dui elit, fringilla quis felis nec, tempor ornare lorem. Phasellus id placerat purus. Aenean fringilla, ligula sed rhoncus viverra, ipsum odio tincidunt purus, id consectetur enim dui eu odio.</p>
-<!-- <div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-	
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
-    </a>
+<div align="left">
+  <p style='margin-top: 15px'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-  
-    <div class="post-entry">
-      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-  
-   </article>
-  {% endfor %}
+    <p>Donec eget arcu pharetra, luctus neque id, sollicitudin dolor. Fusce eget eros rhoncus, posuere nibh at, eleifend nulla. Curabitur maximus diam ex, eu dictum enim porttitor at. Proin sit amet laoreet erat. Quisque rutrum tortor sed massa iaculis cursus. Nulla ac tortor quis mi aliquam aliquet eu euismod velit. Proin quis erat ac nunc pharetra fringilla quis id quam. Vivamus efficitur euismod est, at interdum turpis. Cras dui elit, fringilla quis felis nec, tempor ornare lorem. Phasellus id placerat purus. Aenean fringilla, ligula sed rhoncus viverra, ipsum odio tincidunt purus, id consectetur enim dui eu odio.</p>
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %} -->

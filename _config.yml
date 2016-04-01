@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://grocerystoreapple.github.io/urapWebpage"
-baseurl: "/urapWebpage"
+baseurl: "/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -19,13 +19,19 @@ title: DataConnect
 # Short description of your site
 description: A virtual proof that name is awesome!
 
+# Gem installations
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutme"
-  Academics: "Academics"
-  Projects: "Projects"
+  About: "about"
+  Academics: "academics"
+  Projects: "projects"
   News & Events: "http://yahoo.com"
   Resources:
     - Campus Group: "http://berkeley.edu"
